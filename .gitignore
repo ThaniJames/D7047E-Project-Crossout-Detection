@@ -29,3 +29,14 @@ wandb/
 # Zip / archive files
 *.zip
 *.tar.gz
+
+# Virtual environments (local only)
+crossout-detection/.venv/
+**/venv/
+**/.venv/
+
+# Results folder temporarily ignored - will be committed separately
+crossout-detection/results/
+
+# iPad dataset - replaced by paper dataset, not used in the report
+crossout-detection/data/custom_dataset/
