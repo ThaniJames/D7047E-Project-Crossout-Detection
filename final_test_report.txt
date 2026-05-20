@@ -1,0 +1,30 @@
+=== FINAL TEST EVALUATION REPORTS ===
+
+========================================
+--- IAM TEST SET EVALUATION ---
+========================================
+
+TASK 1: DETECTION
+              precision    recall  f1-score   support
+
+       Clean       1.00      0.89      0.94     20306
+ Crossed-out       0.98      1.00      0.99    142142
+
+    accuracy                           0.99    162448
+   macro avg       0.99      0.95      0.97    162448
+weighted avg       0.99      0.99      0.99    162448
+
+TASK 2: CLASSIFICATION
+              precision    recall  f1-score   support
+
+ Single-Line       1.00      0.90      0.94     20306
+ Double-Line       0.62      1.00      0.77     20306
+    Diagonal       1.00      0.90      0.95     20306
+       Cross       1.00      0.90      0.95     20306
+        Wave       0.99      0.89      0.94     20306
+     Zig-zag       0.98      0.89      0.93     20306
+     Scratch       1.00      0.90      0.95     20306
+
+    accuracy                           0.91    142142
+   macro avg       0.94      0.91      0.92    142142
+weighted avg       0.94      0.91      0.92    142142
